@@ -1,5 +1,5 @@
 {
-  "name": "next_discussion_platform",
+  "name": "forum-y",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,7 +17,6 @@
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@fontsource/open-sans": "^5.0.28",
-    "@next/font": "14.2.3",
     "@types/node": "20.14.0",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",

@@ -54,8 +54,8 @@ const Communities: React.FC = () => {
   };
 
   useEffect(() => {
-    getCommunities(0);
-  }, []);
+    getCommunities(1);
+  }, [router]);
 
   return (
     <>

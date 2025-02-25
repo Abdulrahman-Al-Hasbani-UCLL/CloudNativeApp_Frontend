@@ -11,7 +11,7 @@ import useCommunityData from "@/hooks/useCommunityData";
 import useCustomToast from "@/hooks/useCustomToast";
 import usePosts from "@/hooks/usePosts";
 import { Stack } from "@chakra-ui/react";
-import { Inter } from "@next/font/google";
+import { Inter } from "next/font/google";
 import {
   collection,
   getDocs,
