@@ -51,17 +51,10 @@ const PersonalHome: React.FC = () => {
           </Flex>
           <Stack spacing={3}>
             <Text fontSize="9pt">
-              Home page personalized based on your subscribed communities.
+              Home page showing popular threads
             </Text>
             <Button height="30px" onClick={onClick}>
               Create Post
-            </Button>
-            <Button
-              variant="outline"
-              height="30px"
-              onClick={() => setOpen(true)}
-            >
-              Create Community
             </Button>
           </Stack>
         </Flex>

@@ -69,7 +69,7 @@ const SuggestionsHeader: React.FC = () => {
       bgGradient="linear-gradient(to bottom, rgba(139, 0, 0, 0), rgba(139, 0, 0, 0.75)),
         url('/images/banners/large.png')"
     >
-      Top Communities
+      Top threads
     </Flex>
   );
 };

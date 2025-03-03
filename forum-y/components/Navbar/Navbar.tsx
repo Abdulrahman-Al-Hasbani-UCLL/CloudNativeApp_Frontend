@@ -70,8 +70,6 @@ const Navbar: React.FC = () => {
           alt="Website text logo"
         />
       </Flex>
-      {/* Community directory only visible when user is logged in */}
-      {user && <Directory />}
       <SearchInput />
       {/* Changes depending on whether user is authenticated or not */}
       <RightContent user={user} />

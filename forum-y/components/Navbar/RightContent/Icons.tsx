@@ -27,13 +27,6 @@ const icons: React.FC = () => {
         borderRight="1px solid"
         borderColor="gray.200"
       >
-        <IconItem
-          icon={VscGithub}
-          fontSize={20}
-          onClick={() => {
-            router.push("https://github.com/mbeps/next_discussion_platform");
-          }}
-        />
       </Flex>
       <>
         {/* Always visible */}
